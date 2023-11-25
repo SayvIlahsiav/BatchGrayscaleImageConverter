@@ -1,4 +1,10 @@
 #BlueJ class context
 comment0.target=BatchGrayscaleImageConverter
-comment0.text=\r\n\ Write\ a\ description\ of\ BatchGrayscaleImageConverter\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-numComments=1
+comment0.text=\r\n\ Write\ a\ description\ of\ BatchGrayscaleImageConverter\ here.\r\n\ \r\n\ @author\ Vaishali\ Vys\ \r\n\ @version\ 2023,\ November\ 25\r\n
+comment1.params=inImage
+comment1.target=edu.duke.ImageResource\ makeGray(edu.duke.ImageResource)
+comment2.params=
+comment2.target=void\ testGray()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
