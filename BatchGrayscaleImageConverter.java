@@ -4,7 +4,7 @@ import java.io.*;
 /**
  * Write a description of BatchGrayscaleImageConverter here.
  * 
- * @author Vaishali Vys 
+ * @author Vaishali Vyas 
  * @version 2023, November 25
  */
 
@@ -33,7 +33,13 @@ public class BatchGrayscaleImageConverter {
         for (File f: dr.selectedFiles()) {
             ImageResource inImage = new ImageResource(f);
             ImageResource gray = makeGray(inImage);
+            String fileName = inImage.getFileName();
+            String newName = "grayed-" + fileName;
+            String directoryPath = "D:\\Study\\Coursera\\Java - Duke University\\Projects\\BatchGrayscaleImageConverter\\images\\";
+            String fullPath = directoryPath + newName;
+            gray.setFileName(fullPath);
             gray.draw();
+            gray.save();
         }
     }
     
