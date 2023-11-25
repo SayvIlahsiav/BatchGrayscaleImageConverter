@@ -1,4 +1,6 @@
 import edu.duke.*;
+import java.io.*;
+
 /**
  * Write a description of BatchGrayscaleImageConverter here.
  * 
@@ -26,8 +28,17 @@ public class BatchGrayscaleImageConverter {
         gray.draw();
     }
     
+    public void selectAndConvert() {
+        DirectoryResource dr = new DirectoryResource();
+        for (File f: dr.selectedFiles()) {
+            ImageResource inImage = new ImageResource(f);
+            ImageResource gray = makeGray(inImage);
+            gray.draw();
+        }
+    }
+    
     public static void main(String[] args) {
         BatchGrayscaleImageConverter bgic = new BatchGrayscaleImageConverter();
-        bgic.testGray();
+        bgic.selectAndConvert();
     }
 }
