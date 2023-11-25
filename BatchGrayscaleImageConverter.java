@@ -2,7 +2,11 @@ import edu.duke.*;
 import java.io.*;
 
 /**
- * Write a description of BatchGrayscaleImageConverter here.
+ * This class provides functionality for 
+ * converting color images to grayscale. 
+ * It includes methods for processing individual images as well as 
+ * batch processing multiple images from a selected directory, 
+ * saving the grayscale versions with modified file names in a specified path.
  * 
  * @author Vaishali Vyas 
  * @version 2023, November 25

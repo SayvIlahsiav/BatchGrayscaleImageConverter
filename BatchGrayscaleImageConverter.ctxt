@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=BatchGrayscaleImageConverter
-comment0.text=\r\n\ Write\ a\ description\ of\ BatchGrayscaleImageConverter\ here.\r\n\ \r\n\ @author\ Vaishali\ Vyas\ \r\n\ @version\ 2023,\ November\ 25\r\n
+comment0.text=\r\n\ This\ class\ provides\ functionality\ for\ \r\n\ converting\ color\ images\ to\ grayscale.\ \r\n\ It\ includes\ methods\ for\ processing\ individual\ images\ as\ well\ as\ \r\n\ batch\ processing\ multiple\ images\ from\ a\ selected\ directory,\ \r\n\ saving\ the\ grayscale\ versions\ with\ modified\ file\ names\ in\ a\ specified\ path.\r\n\ \r\n\ @author\ Vaishali\ Vyas\ \r\n\ @version\ 2023,\ November\ 25\r\n
 comment1.params=inImage
 comment1.target=edu.duke.ImageResource\ makeGray(edu.duke.ImageResource)
 comment2.params=
